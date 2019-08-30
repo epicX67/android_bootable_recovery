@@ -140,6 +140,13 @@
 #define TW_MILITARY_TIME            "tw_military_time"
 #define TW_USE_SHA2                 "tw_use_sha2"
 #define TW_NO_SHA2                  "tw_no_sha2"
+#define SHRP_MAINTAINER_NAME        "shrp_maintainer_name"
+#define SHRP_PRODUCT                "shrp_product"
+#define SHRP_EDL                    "shrp_edl"
+#define SHRP_EXTERNAL_MOUNT         "shrp_external_mount"
+#define SHRP_INTERNAL_MOUNT         "shrp_internal_mount"
+#define SHRP_OTG_MOUNT              "shrp_otg_mount"
+
 
 // Also used:
 //   tw_boot_is_mountable
