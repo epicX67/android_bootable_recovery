@@ -776,6 +776,12 @@ void DataManager::SetDefaultValues()
 	mData.SetValue("tw_background_thread_running", "0");
 	mData.SetValue(TW_RESTORE_FILE_DATE, "0");
 	mPersist.SetValue("tw_military_time", "0");
+	mConst.SetValue(shrp_maintainer_name, EXPAND(SHRP_MAINTAINER_NAME));
+	mConst.SetValue(shrp_product, EXPAND(SHRP_PRODUCT));
+	mConst.SetValue(shrp_edl, EXPAND(SHRP_EDL));
+	mConst.SetValue(shrp_external_mount, EXPAND(SHRP_EXTERNAL_MOUNT));
+	mConst.SetValue(shrp_internal_mount, EXPAND(SHRP_INTERNAL_MOUNT));
+	mConst.SetValue(shrp_otg_mount, EXPAND(SHRP_OTG_MOUNT));
 
 #ifdef TW_INCLUDE_CRYPTO
 	mPersist.SetValue(TW_USE_SHA2, "1");
